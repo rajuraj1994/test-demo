@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="" method="" autocomplete="off" action="">
+        
+        <fieldset>
+            <legend>User detail form</legend>
+        <label for="fname">FirstName</label> <br/>
+        <input type="text" name="fname" id="fname" placeholder="Enter Firstname" required> <br/>
+        <label for="lname">Lastname</label> <br/>
+        <input type="text" name="lname" id="lname" placeholder="Enter Lastname" required> <br/>
+        <label for="email">Email</label> <br/>
+        <input type="email" name="email" id="email" placeholder="Enter Email" required> <br/>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="gender" value="male" checked>Male
+        <input type="radio" name="gender" id="gender" value="female">Female
+        <input type="radio" name="gender" id="gender" value="others">others
+        <br/>
+        <label for="subject">Choose Any Two</label> <br/>
+        <input type="checkbox" name="subject" id="subject" value="web">Web
+        <input type="checkbox" name="subject" id="subject" value="Graphic">Graphics
+        <input type="checkbox" name="subject" id="subject" value="networking">Networking
+        <input type="checkbox" name="subject" id="subject" value="mobile">Mobile
+        <br/>
+        <label for="district">District</label>
+        <select name="district" id="dictrict">
+            <option value="kathmandu">Kathmandu</option>
+            <option value="kaski">kaski</option>
+            <option value="Dhading">Dhading</option>
+            <option value="bhaktapur">Bhaktapur</option>
+            <option value="palpa">Palpa</option>
+            <option value="dolpa">Dolpa</option>
+        </select>
+        <br/>
+        <label for="dob">Date of Birth</label> <br/>
+        <input type="date" name="dob" id="dob" required> <br/>
+        <label for="phone">Phone Number</label> <br/>
+        <input type="number" name="phone" id="phone"> <br/>
+        <label for="review">Review</label><br/>
+        <textarea name="review" id="review" cols="30" rows="10" required></textarea>
+        <br/>
+        <label for="image">Upload Image</label>
+        <input type="file" name="image" id="image"> <br/>
+        <label for="password">Password</label> <br/>
+        <input type="password" name="pass" id="password" required> <br/>
+        <label for="readonly">Readonly</label> <br/>
+        <input type="text" name="read" id="readonly" value="Hello people" readonly> <br/>
+        <input type="hidden" name="flower" value="flower">
+        <input type="search" name="search" placeholder="search here ...."><br/>
+        <input type="submit" name="submit" value="Send">
+        <input type="reset" value="Reset">
+    </fieldset>
+
+    </form>
+    
+</body>
+</html>
